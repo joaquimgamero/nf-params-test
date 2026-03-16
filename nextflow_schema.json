@@ -18,7 +18,7 @@
                 },
                 "skip": {
                     "type": "string",
-                    "default": "skip_default_test2",
+                    "default": "hello",
                     "description": "Tests to skip as comma delimited values.",
                     "help_text": "Tests to skip as comma delimited values. E.g. --skip TEST_SUCCESS,TEST_INPUT. Case insensitive."
                 },
@@ -30,7 +30,7 @@
                 },
                 "outdir": {
                     "type": "string",
-                    "default": "results3",
+                    "default": "world",
                     "description": "Path to use for publishing output files.",
                     "help_text": "Path to a remote folder to publish files to. If not specified, this is a subfolder within the working directory but if specified it will publish files to the path specified in this parameter.",
                     "format": "directory-path"
