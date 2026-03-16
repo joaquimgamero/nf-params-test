@@ -29,6 +29,7 @@
                 },
                 "outdir": {
                     "type": "string",
+                    "default": "results",
                     "description": "Path to use for publishing output files.",
                     "help_text": "Path to a remote folder to publish files to. If not specified, this is a subfolder within the working directory but if specified it will publish files to the path specified in this parameter.",
                     "format": "directory-path"
